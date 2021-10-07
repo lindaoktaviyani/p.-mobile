@@ -30,6 +30,11 @@ class Home extends StatelessWidget {
           Icon(Icons.more_vert, color: Colors.black)
         ],
       ),
+      body: Container(
+        color: Colors.pink,
+        margin: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+        child: Icon(Icons.home, size: 50, color: Colors.white),
+      ),
     );
   }
 }
