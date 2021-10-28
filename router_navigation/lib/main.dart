@@ -47,7 +47,7 @@ class halamankedua extends StatelessWidget {
           icon: Icon(
             Icons.speaker,
             size: 50.0,
-            color: Colors.orange,
+            color: Colors.pink,
           ),
           onPressed: () {
             Navigator.pushNamed(context, '/halamanpertama');
